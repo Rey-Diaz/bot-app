@@ -1,0 +1,26 @@
+/* src/Components/Pages/Services.css */
+
+.services-container {
+    padding: 40px;
+    background-color: var(--light-blue);
+}
+
+/* src/Components/Pages/Services.css */
+
+.services-container {
+    padding: 40px;
+    background-color: var(--light-blue);
+}
+
+.services-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-container li {
+    margin: 20px 0;
+    background-color: var(--pastel-blue);
+    padding: 10px;
+    border-radius: 8px;
+}
+

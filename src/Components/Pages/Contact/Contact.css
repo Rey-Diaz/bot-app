@@ -1,0 +1,24 @@
+/* src/Components/Pages/Contact.css */
+
+.contact-container {
+    padding: 40px;
+    background-color: var(--medium-blue);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    background-color: var(--deep-navy);
+    color: var(--white);
+    cursor: pointer;
+}
