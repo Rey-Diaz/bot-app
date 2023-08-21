@@ -8,47 +8,15 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: var(--deep-navy);
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, var(--deep-navy) 0%, var(--medium-blue) 100%);
   color: var(--white);
-}
-
-
-body {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
-.app-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Add any additional styles for your app's header and main content here */
-header {
-  background-color: var(--light-gray);
-  padding: 20px;
-}
-
-main {
-  flex: 1;
-  padding: 20px;
-  background-color: var(--white);
-}
-
-body {
-  margin: 0; /* Remove default margin */
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: var(--deep-navy); /* Set the background color for the entire body */
-}
-
 
 .app-container {
   flex: 1;

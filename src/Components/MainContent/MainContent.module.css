@@ -12,16 +12,17 @@
 .centerDiv {
     width: 50vw;
     height: 80vh;
-    background-color: var(--light-blue); /* Use the light blue color */
-    border-radius: 15px;
+    background-color: var(--light-blue);
+    border-radius: 20px;
     padding: 5px;
     box-sizing: border-box;
-    color: var(--white); /* Use the white color */
+    color: var(--white);
     display: flex;
-    flex-direction: column; /* Adjusted to column layout */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (max-width: 600px) {

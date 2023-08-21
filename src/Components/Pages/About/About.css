@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 0;
-    background-color: var(--light-blue);
+    background: linear-gradient(135deg, var(--light-blue) 0%, var(--pastel-blue) 100%);
     padding: 20px;
     border-radius: 8px;
 }
@@ -32,9 +32,11 @@ h2 {
     margin-top: 0;
     color: var(--deep-navy);
 }
+
 .bubble-style {
     background-color: var(--medium-blue);
     border: 2px solid var(--light-blue);
-    border-radius: 15px; /* Adjust for desired roundness */
-    padding: 10px; /* Adjust for desired spacing */
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
