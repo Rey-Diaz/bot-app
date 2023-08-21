@@ -22,7 +22,7 @@ function MainContent() {
                                         'messagingUrl': 'https://messaging.botpress.cloud',
                                         'clientId': '8b6780df-34f7-4066-a4a6-bf25db7d8cfb',
                                         'enableConversationDeletion': true,
-                                        'showPoweredBy': true,
+                                        'showPoweredBy': false,
                                         'className': 'webchatIframe',
                                         'containerWidth': '100%25',
                                         'layoutWidth': '100%25',
