@@ -10,17 +10,22 @@ function Home() {
             </div>
 
             <div className="carousel-bubble">
-                <EmblaCarousel />
+            <EmblaCarousel initialSlide={2} />
             </div>
 
-            <div className="content-bubble">
-                <div className="mission-statement">
+            <div className="columns-container">
+                <div className="mission-statement bubble">
                     <h2>Our Mission</h2>
-                    <p>At [Your Company Name], we strive to provide the best services to our clients. Our mission is to continuously innovate and improve our offerings, ensuring customer satisfaction at every step.</p>
+                    <p>At [Your Company Name], we strive to provide the best services to our clients...</p>
                 </div>
-                <div className="stay-connected">
+                <div className="stay-connected bubble">
                     <h2>Stay Connected</h2>
-                    <p>Join our community and stay updated with our latest news, events, and offerings. Connect with us on social media or sign up for our newsletter.</p>
+                    <ul>
+                        {/* Your list items here */}
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
                 </div>
             </div>
         </div>
