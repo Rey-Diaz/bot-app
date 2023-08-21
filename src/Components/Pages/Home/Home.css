@@ -1,88 +1,41 @@
-body, html {
-    height: 100%; /* Ensure the body and html elements take up the full viewport height */
-    margin: 0;    /* Reset default margin */
-}
-
 .home-container {
-    padding: 40px;
-    text-align: center;
-    background-color: var(--medium-blue);
-    color: var(--deep-navy);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
-    min-height: 100vh; /* Set the minimum height to the full viewport height */
+    gap: 20px;
+    padding: 20px; /* Added padding to the sides */
+    background-color: var(--deep-navy);
+}
+
+.title-bubble, .carousel-bubble, .content-bubble {
+    background-color: var(--medium-blue);
+    border: 30px solid var(--light-blue); 
+    border-radius: 30px; /* Rounded inner borders */
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.carousel-bubble .embla__container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribute space between items */
+}
+
+.content-bubble {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mission-statement, .stay-connected {
+    flex: 1;
+    margin: 0 20px;
+    border-radius: 20px; /* Rounded inner borders for the mission and stay connected sections */
 }
 
 h1, h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--pastel-blue);
-    border-radius: 8px;
+    color: var(--deep-navy);
 }
 
 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin-bottom: 40px;
-    line-height: 1.5;
-    border-radius: 8px;
-}
-
-.embla {
-    width: 80%;
-    overflow: hidden;  /* This hides the inner edges of the slides */
-    margin-top: 20px;
-    margin-bottom: 40px;
-    border-radius: 10px;  /* Rounded corners applied here */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    background-color: var(--deep-navy);
-}
-
-.embla__container {
-    display: flex;
-}
-
-.embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--deep-navy);
-    overflow: visible;
-    /* Removed border-radius from individual slides */
-}
-
-.embla__slide img {
-    max-width: 100%;
-    overflow: visible;
-    
-    /* If you want the images themselves to have rounded corners, you can add it back here */
-    /* border-radius: 8px; */
-}
-
-.home-content {
-    text-align: left;
-    width: 80%;
-    background-color: var(--light-blue);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    display: flex; /* Use flexbox to create a two-column layout */
-    justify-content: space-between; /* Space out the two columns */
-}
-
-.mission-statement, .additional-text {
-    width: 48%; /* Set the width of each column to occupy almost half the container */
-    padding: 1%; /* Add some padding for spacing */
-}
-
-.additional-text {
-    text-align: right; /* Right-align the content of the new text area */
+    color: var(--deep-navy);
 }

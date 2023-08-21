@@ -3,8 +3,5 @@ footer {
     color: var(--white);
     padding: 20px 0;
     text-align: center;
-    /* Remove the following properties */
-    /* position: absolute; */
-    /* bottom: 0; */
     width: 100%;
 }

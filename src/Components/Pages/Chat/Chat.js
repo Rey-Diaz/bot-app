@@ -5,7 +5,7 @@ function Chat() {
     return (
         <div>
             <h1>Chat Page</h1>
-            <BotpressChat />  // Include the Botpress chat component here
+            <BotpressChat />
         </div>
     );
 }

@@ -1,25 +1,28 @@
 import React from 'react';
-import { EmblaCarousel } from '../../EmblaCarousel/EmblaCarousel'; // Update the path if needed
+import { EmblaCarousel } from '../../EmblaCarousel/EmblaCarousel'; // Adjust the path if needed
 import './Home.css';
 
 function Home() {
     return (
         <div className="home-container">
-            <h1>Welcome to Our Website</h1>
-            <p>Discover our services, chat with our team, and learn more about our journey.</p>
+            <div className="title-bubble">
+                <h1>Welcome to Our Website</h1>
+            </div>
 
-            <EmblaCarousel />
+            <div className="carousel-bubble">
+                <EmblaCarousel />
+            </div>
 
-            <section className="home-content">
+            <div className="content-bubble">
                 <div className="mission-statement">
                     <h2>Our Mission</h2>
-                    <p>At [Company Name], we are dedicated to ...</p>
+                    <p>At [Your Company Name], we strive to provide the best services to our clients. Our mission is to continuously innovate and improve our offerings, ensuring customer satisfaction at every step.</p>
                 </div>
-                <div className="additional-text">
-                    <h2>Our Values</h2>
-                    <p>At [Company Name], we believe in ...</p>
+                <div className="stay-connected">
+                    <h2>Stay Connected</h2>
+                    <p>Join our community and stay updated with our latest news, events, and offerings. Connect with us on social media or sign up for our newsletter.</p>
                 </div>
-            </section>
+            </div>
         </div>
     );
 }

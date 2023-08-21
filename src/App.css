@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--white); /* Set the background color for the entire body */
+  background-color: var(--deep-navy); /* Set the background color for the entire body */
 }
 
 

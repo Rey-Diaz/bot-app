@@ -2,7 +2,9 @@
 
 .about-container {
     padding: 20px;
-    background-color: var(--pastel-blue);
+    background-color: var(--medium-blue);
+    border: 2px solid var(--light-blue);
+    border-radius: 15px;
 }
 
 .about-section {
@@ -29,4 +31,10 @@
 h2 {
     margin-top: 0;
     color: var(--deep-navy);
+}
+.bubble-style {
+    background-color: var(--medium-blue);
+    border: 2px solid var(--light-blue);
+    border-radius: 15px; /* Adjust for desired roundness */
+    padding: 10px; /* Adjust for desired spacing */
 }
