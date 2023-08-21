@@ -1,0 +1,50 @@
+/* MainContent.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--deep-navy);
+    margin: 0;
+}
+
+.centerDiv {
+    width: 50vw;
+    height: 80vh;
+    background-color: var(--light-blue); /* Use the light blue color */
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: var(--white); /* Use the white color */
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .centerDiv {
+        height: 40vh;
+        width: 80vw;
+    }
+}
+
+/* Additional styles for the iframe container */
+.absoluteInset {
+    position: absolute;
+    inset: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Additional styles for iframe */
+iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,87 @@
+/* NavBar.module.css */
+
+:root {
+    --deep-navy: #06203A;
+    --pastel-blue: #B2DFF7;
+    --medium-blue: #4A90E2;
+    --light-blue: #A6E1FA;
+    --white: #ffffff;
+}
+
+.navBar {
+    background-color: var(--medium-blue);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center items */
+    padding: 10px 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+
+.left .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.left .menu li a {
+    color: var(--white);
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.left .menu li a:hover {
+    color: var(--deep-navy);
+}
+
+.right {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    padding-right: 40px;
+}
+
+.right .login, .right .signup {
+    background-color: var(--deep-navy);
+    color: var(--white);
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.right .login:hover, .right .signup:hover {
+    background-color: var(--light-blue);
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        background-color: var(--light-blue);
+        border: 1px solid var(--deep-navy);
+    }
+    .menu.open {
+        display: flex;
+    }
+}
